@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\irq_led\stm_lib\inc -I..\..\..\workspace\irq_led -I..\..\..\workspace -I..\..\..\workspace\irq_led\cmsis_boot -I..\..\..\workspace\irq_led\cmsis -I..\..\..\workspace\irq_led\stm_lib">
+      <target file="stm32f10x_rcc.o" lastModified="16e6c0df3a2">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="16e6c095b26"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="16e6c0df208">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="16e6c095032"/>
+      </target>
+      <target file="misc.o" lastModified="16e6c4272ba">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="16e6c372ad2"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="16e6c0df1a5">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="16e6c095039"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="16e6c216a1d">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="16e6c1cc0aa"/>
+      </target>
+      <target file="main.o" lastModified="16e6c42716f">
+         <source file="..\..\..\main.c" lastModified="16e6c4268bf"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="16e6c0df29e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="16e6c096f2c"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=irq_led.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\irq_led -TC:\CooCox\CoIDE\configuration\ProgramData\irq_led/arm-gcc-link.ld -g">
+      <target file="irq_led.elf" lastModified="16e6c427556">
+         <source file="..\obj\system_stm32f10x.o" lastModified="16e6c0df1a5"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="16e6c0df208"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="16e6c0df29e"/>
+         <source file="..\obj\main.o" lastModified="16e6c42716f"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="16e6c0df3a2"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="16e6c216a1d"/>
+         <source file="..\obj\misc.o" lastModified="16e6c4272ba"/>
+      </target>
+   </processor>
+</history>
